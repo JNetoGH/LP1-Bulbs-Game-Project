@@ -4,8 +4,14 @@ using BulbsPuzzle.Interfaces;
 
 namespace BulbsPuzzle
 {
+    /// <summary>
+    /// This class is the entry point of the game
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// The Main method runs the Game Loop 
+        /// </summary>
         static void Main(string[] args)
         {
             Bulb[] bulbs = { new Bulb(), new Bulb(), new Bulb() };
@@ -49,12 +55,19 @@ namespace BulbsPuzzle
             Console.WriteLine("\n" + (hasWon ? "YOU WIN" : "YOU LOSE") + "!!!!!!!");
         }
 
+        /// <summary>
+        /// Prints the bulbs and its states (On/Off).
+        /// </summary>
+        /// <param name="bulbs">An array containing the bulbs to be pruinted</param>
         private static void PrintBulbs(Bulb[] bulbs)
         {
             foreach (Bulb bulb in bulbs)
                 Console.Write(bulb + "   ");
         }
         
+        /// <summary>
+        /// Prints the buttons actions on its managed bulbs.
+        /// </summary>
         private static void PrintButtonLabels()
         {
             Console.WriteLine("\n\nButton 1 (changes bulb 1 state)");    
