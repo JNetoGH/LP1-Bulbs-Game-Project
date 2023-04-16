@@ -28,5 +28,6 @@ O SwitchButton por sua vez, recebe em seu construtor duas lâmpadas, as quais se
 O gameloop do jogo foi implementado na classe Program, não há nada de especial, apenas faz 6 rondas, tendo uma validação de input interna com tratamento de exceções e ao final, checa se todas as bulbs estão On ou não, para dar a mensagem de vitória ao player.
 
 ## FLOWCHART
-![BulbsFlowchart drawio](https://user-images.githubusercontent.com/24737993/232342398-d2bcbb88-2dd1-4095-ba02-9d0b4d3f6162.png)
+![BulbsFlowchart](https://user-images.githubusercontent.com/24737993/232344174-0f36f7eb-de92-45d9-a9ac-82ef3565c7be.png)
+
 
